@@ -1,0 +1,67 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu-bar {
+  width: 10%;
+  height: 184vh;
+  background-color: #04161c;
+}
+.menu-bar .menu-1 {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  grid-area: menu-1;
+}
+.menu-bar .menu-1 p {
+  width: 100px;
+}
+
+.body-box {
+  width: 90%;
+}
+.body-box .main-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #04161c;
+  padding: 10px 20px;
+}
+.body-box .main-header .img {
+  border-radius: 50px;
+}
+.body-box .main-header .nav-text p,
+.body-box .main-header .nav-text h6 {
+  margin: 0;
+}
+.body-box .second-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+.body-box .second-header button {
+  border: none;
+  background-color: #04161c;
+  color: white;
+}
+.body-box .second-header button i {
+  font-size: 20px;
+}
+.body-box .second-header button img {
+  border-radius: 50px;
+}/*# sourceMappingURL=registerlist.css.map */
